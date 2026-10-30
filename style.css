@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+  color: #2f3437;
+}
+
+main {
+  width: 90%;
+  max-width: 750px;
+  margin: 40px auto;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #374151;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #4b5563;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+label {
+  color: #5f6368;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #b8bec5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 15px;
+}
+
+#task-input {
+  width: 250px;
+}
+
+button {
+  padding: 9px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5b6770;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #46515a;
+}
+
+button:disabled {
+  background-color: #adb5bd;
+  color: #e9ecef;
+  cursor: not-allowed;
+}
+
+#error-message {
+  color: #9b4d4d;
+  margin-top: 10px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  background-color: #eef1f3;
+  border: 1px solid #d4d8dc;
+  border-left: 5px solid #7b8790;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+#task-list li button {
+  margin-left: 5px;
+}
+
+#task-list li select {
+  margin-left: 5px;
+}
+
+.completed {
+  color: #8a8f94;
+  text-decoration: line-through;
+  background-color: #e2e4e6 !important;
+}
+
+.doing-now {
+  background-color: #dfe6e9 !important;
+  border-left: 5px solid #4f5d66 !important;
+}
+
+.timer-section {
+  background-color: #eef1f3;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #d4d8dc;
+}
+
+#timer-display {
+  font-size: 34px;
+  font-weight: bold;
+  color: #374151;
+  margin: 15px 0;
+}
+
+.completion-prompt {
+  padding: 20px;
+  border: 1px solid #aeb4ba;
+  border-radius: 8px;
+  background-color: #f1f3f5;
+  text-align: center;
+}
